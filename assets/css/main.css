@@ -1694,3 +1694,99 @@ section,
 }
 
 /**************/
+  /* Posicionamiento flotante */
+/* Contenedor flotante del chat */
+
+        /* Contenedor flotante del chat */
+        #chat-container {
+          position: fixed;
+          bottom: 20px;
+          left: 20px; /* Cambiar a la izquierda */
+          width: 350px;
+          max-height: 500px;
+          display: none;
+          border-radius: 12px;
+          background-color: #fff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+          z-index: 9999; /* Asegurarse de que el chat esté por encima de otros elementos */
+          overflow: hidden;
+          transition: all 0.4s ease-in-out;
+      }
+
+      /* Header del chat */
+      #chat-header {
+          background-color: #e30d58;
+          color: #fff;
+          padding: 10px;
+          cursor: pointer;
+          text-align: center;
+          font-weight: bold;
+          border-radius: 12px 12px 0 0;
+      }
+
+      /* Estilo para los mensajes */
+      .message-bot, .message-user {
+          padding: 10px;
+          border-radius: 10px;
+          margin-bottom: 10px;
+          max-width: 80%;
+          display: flex;
+          align-items: center;
+      }
+
+      .message-bot {
+          background-color: #f0f0f0;
+          text-align: left;
+      }
+
+      .message-user {
+          background-color: #e30d58;
+          color: white;
+          text-align: right;
+      }
+
+      .message-bot .icon, .message-user .icon {
+          margin-right: 10px;
+          font-size: 24px;
+      }
+
+      .message-bot .icon {
+          color: #6c757d; /* Icono del bot */
+      }
+
+      .message-user .icon {
+          color: white; /* Icono del usuario */
+      }
+
+      /* Estilo para el área de mensajes */
+      #chat-box {
+          padding: 15px;
+          max-height: 350px;
+          overflow-y: auto;
+          background-color: #f9f9f9;
+      }
+
+      /* Botón de abrir/ocultar */
+      #chat-toggle {
+          position: fixed;
+          bottom: 20px;
+          left: 20px; /* Cambiar a la izquierda */
+          background-color: #e30d58;
+          color: white;
+          border-radius: 50%;
+          padding: 15px;
+          font-size: 24px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+      }
+
+      /* Contenedor del WhatsApp y el chat flotante */
+      #whatsapp-container {
+          position: relative;
+          z-index: 9999;
+      }
+
+      /* Botón de WhatsApp flotante justo arriba del chat */
+     /* Botón de WhatsApp flotante justo encima del chat */
+
+
