@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #7d9f79;
+  --background-color: #aac2b5;
   --surface-color: #ffffff;
 }
 
@@ -223,7 +223,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: #7d9f79;
+  background-color: #aac2b5;
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -1666,7 +1666,7 @@ section,
   transform: translateY(-5px);
 }
 .plan-header {
-  background-color: #7d9f79;
+  background-color: #aac2b5;
   color: white;
   text-align: center;
   padding: 20px;
@@ -1682,7 +1682,7 @@ section,
   border-top: 1px solid #ddd;
 }
 .btn-plan {
-  background-color: #7d9f79;
+  background-color: #aac2b5;
   color: white;
   border-radius: 20px;
   margin-top: 15px;
@@ -1690,7 +1690,7 @@ section,
 }
 .btn-plan:hover {
   background-color: #fff;
-  color: #7d9f79;
+  color: #aac2b5;
 }
 
 /**************/
@@ -1715,7 +1715,7 @@ section,
 
       /* Header del chat */
       #chat-header {
-          background-color: #e30d58;
+          background-color: #aac2b5;
           color: #fff;
           padding: 10px;
           cursor: pointer;
@@ -1740,7 +1740,7 @@ section,
       }
 
       .message-user {
-          background-color: #e30d58;
+          background-color: #aac2b5;
           color: white;
           text-align: right;
       }
@@ -1771,7 +1771,7 @@ section,
           position: fixed;
           bottom: 20px;
           left: 20px; /* Cambiar a la izquierda */
-          background-color: #e30d58;
+          background-color: #aac2b5;
           color: white;
           border-radius: 50%;
           padding: 15px;
